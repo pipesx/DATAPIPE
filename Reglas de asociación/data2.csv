@@ -1,0 +1,221 @@
+antecedents,consequents,support,confidence,lift
+frozenset({'Chemotherapy'}),frozenset({'no tiene otro cáncer'}),0.23019642857142858,0.9134778911564626,1.001228409628942
+frozenset({'Combined'}),frozenset({'no tiene otro cáncer'}),0.2254107142857143,0.9081948341607311,0.9954378515814793
+frozenset({'Current Smoker'}),frozenset({'no tiene otro cáncer'}),0.22951785714285713,0.9144137734775185,1.0022541946829453
+frozenset({'Female'}),frozenset({'no sobrevivió'}),0.38955357142857144,0.7787455824081676,1.0010961988627103
+frozenset({'Female'}),frozenset({'no tiene cirrosis'}),0.38525,0.7701424338699888,0.999767636346594
+frozenset({'Female'}),frozenset({'no tiene otro cáncer'}),0.45553571428571427,0.910648627422982,0.9981273611463045
+frozenset({'Female'}),frozenset({'tiene hipertensión'}),0.373,0.7456538035911897,0.9995120042393332
+frozenset({'Former Smoker'}),frozenset({'no tiene otro cáncer'}),0.22719642857142858,0.9105417591068489,0.9980102268453679
+frozenset({'Male'}),frozenset({'no sobrevivió'}),0.3883392857142857,0.7770393396934291,0.9989027827655302
+frozenset({'Male'}),frozenset({'no tiene cirrosis'}),0.38507142857142856,0.7705005895594382,1.000232579519879
+frozenset({'Male'}),frozenset({'no tiene otro cáncer'}),0.45682142857142854,0.9140672455068424,1.0018743785403423
+frozenset({'Male'}),frozenset({'tiene hipertensión'}),0.3730178571428571,0.7463822489012756,1.000488449110071
+frozenset({'Never Smoked'}),frozenset({'no tiene otro cáncer'}),0.22785714285714287,0.9146953405017921,1.0025628096003358
+frozenset({'Passive Smoker'}),frozenset({'no tiene otro cáncer'}),0.22778571428571429,0.90977818985807,0.9971733076029892
+frozenset({'Radiation'}),frozenset({'no tiene otro cáncer'}),0.22967857142857143,0.913883757282933,1.0016732640696049
+frozenset({'Stage I'}),frozenset({'no tiene otro cáncer'}),0.2282857142857143,0.9108656929105807,0.9983652783800305
+frozenset({'Stage II'}),frozenset({'no tiene otro cáncer'}),0.22973214285714286,0.9182071229748054,1.0064119409416172
+frozenset({'Stage III'}),frozenset({'no tiene otro cáncer'}),0.22678571428571428,0.91052480642386,0.9979916456536475
+frozenset({'Stage IV'}),frozenset({'no tiene otro cáncer'}),0.22755357142857144,0.909824360988148,0.9972239140244321
+frozenset({'Surgery'}),frozenset({'no tiene otro cáncer'}),0.22707142857142856,0.9138339920948617,1.0016187183377487
+frozenset({'no tiene asma'}),frozenset({'no sobrevivió'}),0.4114107142857143,0.7779503629917272,1.000073925153499
+frozenset({'no tiene cirrosis'}),frozenset({'no sobrevivió'}),0.5997857142857143,0.7786174602438685,1.0009314947352426
+frozenset({'no sobrevivió'}),frozenset({'no tiene cirrosis'}),0.5997857142857143,0.7710389789265873,1.0009314947352426
+frozenset({'no tiene otro cáncer'}),frozenset({'no sobrevivió'}),0.7099821428571429,0.7781844515775465,1.0003748516675681
+frozenset({'no sobrevivió'}),frozenset({'no tiene otro cáncer'}),0.7099821428571429,0.9126991414535605,1.0003748516675681
+frozenset({'si tiene asma'}),frozenset({'no sobrevivió'}),0.36648214285714287,0.7778283115406481,0.9999170250740621
+frozenset({'tiene hipertensión'}),frozenset({'no sobrevivió'}),0.5824107142857143,0.7806927256624459,1.0035992984045032
+frozenset({'no sobrevivió'}),frozenset({'tiene hipertensión'}),0.5824107142857143,0.7487029980258023,1.0035992984045032
+frozenset({'no tiene asma'}),frozenset({'no tiene cirrosis'}),0.41744642857142855,0.7893634982272496,1.0247196416321103
+frozenset({'no tiene asma'}),frozenset({'no tiene otro cáncer'}),0.48760714285714285,0.9220327536721256,1.010605069397147
+frozenset({'no tiene asma'}),frozenset({'tiene hipertensión'}),0.37307142857142855,0.7054533175755529,0.9456252431776087
+frozenset({'no tiene hipertensión'}),frozenset({'no tiene cirrosis'}),0.21269642857142856,0.8374463896505658,1.0871388988926627
+frozenset({'no tiene otro cáncer'}),frozenset({'no tiene cirrosis'}),0.7055892857142857,0.7733696077663822,1.0039570224608791
+frozenset({'no tiene cirrosis'}),frozenset({'no tiene otro cáncer'}),0.7055892857142857,0.915967360563772,1.0039570224608791
+frozenset({'si tiene asma'}),frozenset({'no tiene cirrosis'}),0.352875,0.7489482660602615,0.9722542282761056
+frozenset({'tiene hipertensión'}),frozenset({'no tiene cirrosis'}),0.557625,0.7474687028747876,0.9703335194257523
+frozenset({'no tiene cirrosis'}),frozenset({'tiene hipertensión'}),0.557625,0.7238861328758867,0.9703335194257522
+frozenset({'no tiene hipertensión'}),frozenset({'no tiene otro cáncer'}),0.24033928571428573,0.9462841875834915,1.0371861446934065
+frozenset({'si sobrevivió'}),frozenset({'no tiene otro cáncer'}),0.202375,0.9111593503778742,0.9986871451726484
+frozenset({'si tiene asma'}),frozenset({'no tiene otro cáncer'}),0.42475,0.9014970627250333,0.9880966787873221
+frozenset({'tiene cirrosis'}),frozenset({'no tiene otro cáncer'}),0.20676785714285714,0.9002487948997046,0.9867284998509249
+frozenset({'tiene hipertensión'}),frozenset({'no tiene otro cáncer'}),0.6720178571428571,0.9008066639538501,0.9873399589253817
+frozenset({'no tiene otro cáncer'}),frozenset({'tiene hipertensión'}),0.6720178571428571,0.7365732404290299,0.9873399589253817
+frozenset({'si tiene asma'}),frozenset({'tiene hipertensión'}),0.37294642857142857,0.7915482281599394,1.061031208008153
+"frozenset({'no tiene asma', 'Female'})",frozenset({'no sobrevivió'}),0.207,0.7806586302107885,1.003555467880358
+"frozenset({'Female', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.3002142857142857,0.7792713451376657,1.001772079512173
+"frozenset({'Female', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.3002142857142857,0.7706623882649553,1.0004426200296141
+frozenset({'Female'}),"frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.3002142857142857,0.600149930389462,1.000607243712334
+"frozenset({'Female', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.3545535714285714,0.7783222265778126,1.0005519647481178
+"frozenset({'Female', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.3545535714285714,0.9101535640614256,0.9975847410052421
+frozenset({'Female'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.3545535714285714,0.7087780673258843,0.9983040763160421
+"frozenset({'tiene hipertensión', 'Female'})",frozenset({'no sobrevivió'}),0.2913928571428571,0.7812140942167751,1.0042695302359719
+"frozenset({'Female', 'no sobrevivió'})",frozenset({'tiene hipertensión'}),0.2913928571428571,0.7480174192069676,1.0026803139428437
+"frozenset({'no tiene asma', 'Female'})",frozenset({'no tiene cirrosis'}),0.20951785714285714,0.7901542191393359,1.0257461234132972
+"frozenset({'no tiene asma', 'Female'})",frozenset({'no tiene otro cáncer'}),0.24394642857142856,0.9199946124318135,1.0083711402212001
+"frozenset({'Female', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.3520714285714286,0.772873382987064,1.0033128436013627
+"frozenset({'Female', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.3520714285714286,0.9138778158894967,1.0016667519339977
+frozenset({'Female'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.3520714285714286,0.7038160853889266,0.9974869228299519
+"frozenset({'tiene hipertensión', 'Female'})",frozenset({'no tiene cirrosis'}),0.27882142857142855,0.7475105323630792,0.970387820768984
+"frozenset({'Female', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.27882142857142855,0.7237415407434875,0.9701397008314455
+"frozenset({'si tiene asma', 'Female'})",frozenset({'no tiene otro cáncer'}),0.2115892857142857,0.9001063506532968,0.9865723721244934
+"frozenset({'tiene hipertensión', 'Female'})",frozenset({'no tiene otro cáncer'}),0.3358035714285714,0.9002776713902719,0.9867601502750964
+"frozenset({'Female', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.3358035714285714,0.7371618972951783,0.9881290243083511
+frozenset({'Female'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.3358035714285714,0.6712954699603755,0.9989250476385361
+"frozenset({'no tiene asma', 'Male'})",frozenset({'no sobrevivió'}),0.20441071428571428,0.7752268725450359,0.9965728126009368
+"frozenset({'Male', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.29957142857142854,0.7779632721202002,1.000090520149011
+"frozenset({'Male', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.29957142857142854,0.7714167471375362,1.00142189808758
+"frozenset({'Male', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.3554285714285714,0.7780470643421156,1.0001982370680518
+"frozenset({'Male', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.3554285714285714,0.915252678530372,1.003173686637846
+frozenset({'Male'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.3554285714285714,0.7111873369778826,1.001697499201726
+"frozenset({'tiene hipertensión', 'Male'})",frozenset({'no sobrevivió'}),0.29101785714285716,0.7801713820671168,1.0029290986584303
+"frozenset({'Male', 'no sobrevivió'})",frozenset({'tiene hipertensión'}),0.29101785714285716,0.7493907205591577,1.004521156409336
+"frozenset({'no tiene asma', 'Male'})",frozenset({'no tiene cirrosis'}),0.20792857142857143,0.7885683326561019,1.0236873899750036
+"frozenset({'no tiene asma', 'Male'})",frozenset({'no tiene otro cáncer'}),0.24366071428571429,0.9240823513476907,1.0128515555364965
+"frozenset({'Male', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.35351785714285716,0.7738644359315144,1.0045993882925681
+"frozenset({'Male', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.35351785714285716,0.9180578742348359,1.0062483550683239
+frozenset({'Male'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.35351785714285716,0.7073641333476257,1.0025154118256534
+"frozenset({'tiene hipertensión', 'Male'})",frozenset({'no tiene cirrosis'}),0.27880357142857143,0.7474268753889607,0.970279220682039
+"frozenset({'Male', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.27880357142857143,0.7240307920608422,0.9705274279006908
+"frozenset({'si tiene asma', 'Male'})",frozenset({'no tiene otro cáncer'}),0.2131607142857143,0.9028817789879736,0.9896144136719354
+"frozenset({'tiene hipertensión', 'Male'})",frozenset({'no tiene otro cáncer'}),0.3362142857142857,0.9013356311934511,0.9879197398190178
+"frozenset({'Male', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.3362142857142857,0.7359862403252286,0.9865531143503077
+frozenset({'Male'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.3362142857142857,0.6727409154250187,1.001075950995165
+"frozenset({'no tiene asma', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.3248392857142857,0.7781580185652565,1.0003408713937458
+"frozenset({'no tiene asma', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.3248392857142857,0.7895742002691089,1.024993166467386
+frozenset({'no tiene asma'}),"frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.3248392857142857,0.6142495357082559,1.0241149815309734
+"frozenset({'no tiene asma', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.3797857142857143,0.7788764374130228,1.0012644161225215
+"frozenset({'no tiene asma', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.3797857142857143,0.9231303441989669,1.0118080966715366
+frozenset({'no tiene asma'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.3797857142857143,0.7181495863582643,1.0115037308801227
+"frozenset({'tiene hipertensión', 'no tiene asma'})",frozenset({'no sobrevivió'}),0.2915,0.781351713574574,1.0044464432343818
+"frozenset({'no tiene asma', 'no sobrevivió'})",frozenset({'tiene hipertensión'}),0.2915,0.7085376969486522,0.9497597010107122
+"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.5498392857142858,0.779262521195556,1.0017607361221048
+"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.5498392857142858,0.7744410070675822,1.0053478695299876
+"frozenset({'no sobrevivió', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.5498392857142858,0.9167262117422891,1.0047887704057032
+frozenset({'no tiene otro cáncer'}),"frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.5498392857142858,0.6026579503640492,1.0047887704057032
+frozenset({'no tiene cirrosis'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.5498392857142858,0.7137790347257639,1.0053478695299876
+frozenset({'no sobrevivió'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.5498392857142858,0.706831642257013,1.0017607361221048
+"frozenset({'si tiene asma', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.2749464285714286,0.7791609736349375,1.0016301942876016
+"frozenset({'si tiene asma', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.2749464285714286,0.7502314476441067,0.9739200025052152
+"frozenset({'tiene hipertensión', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.43573214285714285,0.7814071156371089,1.0045176639198865
+"frozenset({'tiene hipertensión', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.43573214285714285,0.7481526904798405,0.9712214443616084
+"frozenset({'no sobrevivió', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.43573214285714285,0.7264796951292128,0.9738100612115738
+"frozenset({'si tiene asma', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.33019642857142856,0.777390061380644,0.999353643940041
+"frozenset({'si tiene asma', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.33019642857142856,0.9009891341421818,0.9875399575660022
+frozenset({'si tiene asma'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.33019642857142856,0.7008148569262839,0.9870880049264794
+"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.5247678571428571,0.780883798793612,1.0038449275157768
+"frozenset({'tiene hipertensión', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.5247678571428571,0.9010271347539475,0.9875816085927553
+"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.5247678571428571,0.7391282476923463,0.9907648196560641
+frozenset({'tiene hipertensión'}),"frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.5247678571428571,0.7034253297268831,0.9907648196560641
+frozenset({'no sobrevivió'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.5247678571428571,0.6746017170928791,1.0038449275157768
+"frozenset({'tiene hipertensión', 'si tiene asma'})",frozenset({'no sobrevivió'}),0.2909107142857143,0.7800335168781423,1.0027518696381241
+"frozenset({'si tiene asma', 'no sobrevivió'})",frozenset({'tiene hipertensión'}),0.2909107142857143,0.7937923305559617,1.064039316158026
+frozenset({'si tiene asma'}),"frozenset({'tiene hipertensión', 'no sobrevivió'})",0.2909107142857143,0.6174341481902597,1.0601352843371006
+"frozenset({'no tiene asma', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.3873214285714286,0.7943309162821358,1.0311681420510828
+"frozenset({'no tiene asma', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.3873214285714286,0.9278350515463919,1.0169647476434265
+frozenset({'no tiene asma'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.3873214285714286,0.7323991220665204,1.0379963767804303
+"frozenset({'tiene hipertensión', 'no tiene asma'})",frozenset({'no tiene cirrosis'}),0.27767857142857144,0.7443040398238561,0.9662252823528198
+"frozenset({'no tiene asma', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.27767857142857144,0.6651837275954999,0.8916458516731215
+"frozenset({'tiene hipertensión', 'no tiene asma'})",frozenset({'no tiene otro cáncer'}),0.33564285714285713,0.8996745165613632,0.9860990551835187
+"frozenset({'no tiene asma', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.33564285714285713,0.6883468834688347,0.9226949152465409
+frozenset({'no tiene asma'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.33564285714285713,0.6346783724463954,0.9444367671192342
+"frozenset({'no tiene hipertensión', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.20351785714285714,0.8467939668623226,1.0992735440745993
+"frozenset({'no tiene hipertensión', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.20351785714285714,0.9568466123751155,1.0487632171965566
+frozenset({'no tiene hipertensión'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.20351785714285714,0.8013077409829149,1.1356574670372594
+"frozenset({'si tiene asma', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.31826785714285716,0.7493063146388632,0.9727190324024373
+"frozenset({'si tiene asma', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.31826785714285716,0.9019280400789434,0.9885690566903005
+frozenset({'si tiene asma'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.31826785714285716,0.6754974417282548,0.9573521812259831
+"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.5020714285714286,0.7471102489836049,0.9698681891390856
+"frozenset({'tiene hipertensión', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.5020714285714286,0.9003746757613603,0.9868664730806423
+"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.5020714285714286,0.7115632829701618,0.9538153492670383
+frozenset({'tiene hipertensión'}),"frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.5020714285714286,0.6730018909926515,0.9538153492670384
+frozenset({'no tiene cirrosis'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.5020714285714286,0.6517687421762716,0.9698681891390857
+"frozenset({'tiene hipertensión', 'si tiene asma'})",frozenset({'no tiene cirrosis'}),0.2799464285714286,0.7506344266219775,0.9744431334514985
+"frozenset({'si tiene asma', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.2799464285714286,0.7933302970497446,1.063419983119556
+"frozenset({'tiene hipertensión', 'si tiene asma'})",frozenset({'no tiene otro cáncer'}),0.336375,0.9019391908067991,0.98858127857944
+"frozenset({'si tiene asma', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.336375,0.7919364331959976,1.0615515776378357
+frozenset({'si tiene asma'}),"frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.336375,0.7139283683911313,1.0623651749768381
+"frozenset({'no tiene cirrosis', 'Female', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.2743035714285714,0.7791134104280787,1.001569050639833
+"frozenset({'no sobrevivió', 'Female', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.2743035714285714,0.7736590279526567,1.0043327359949181
+"frozenset({'no sobrevivió', 'Female', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.2743035714285714,0.9136926005234356,1.0014637444083692
+"frozenset({'Female', 'no tiene otro cáncer'})","frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.2743035714285714,0.602156017248138,1.0039519163360644
+"frozenset({'Female', 'no tiene cirrosis'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.2743035714285714,0.7120144618522296,1.0028624931141341
+"frozenset({'Female', 'no sobrevivió'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.2743035714285714,0.7041485216594087,0.9979580698232705
+"frozenset({'tiene hipertensión', 'Female', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.21803571428571428,0.7819905213270142,1.005267645983031
+"frozenset({'tiene hipertensión', 'Female', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.21803571428571428,0.7482534624341218,0.9713522624208545
+"frozenset({'no sobrevivió', 'Female', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.21803571428571428,0.7262669521770164,0.9735248898176728
+"frozenset({'tiene hipertensión', 'Female', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.26219642857142855,0.7808029779314012,1.0037410303511882
+"frozenset({'tiene hipertensión', 'Female', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.26219642857142855,0.8998038975364628,0.9862408647545979
+"frozenset({'no sobrevivió', 'Female', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.26219642857142855,0.7395114580710148,0.991278494194816
+"frozenset({'tiene hipertensión', 'Female'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.26219642857142855,0.7029394867866717,0.9900805166139394
+"frozenset({'Female', 'no sobrevivió'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.26219642857142855,0.6730689892275956,1.001564143085732
+"frozenset({'tiene hipertensión', 'Female', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.2505357142857143,0.7460781706992822,0.9685283870174741
+"frozenset({'tiene hipertensión', 'Female', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.2505357142857143,0.8985525810170362,0.9848693442604326
+"frozenset({'no tiene cirrosis', 'Female', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.2505357142857143,0.7116047879894503,0.953870984690361
+"frozenset({'tiene hipertensión', 'Female'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.2505357142857143,0.6716775181922635,0.9519383751870716
+"frozenset({'Female', 'no tiene cirrosis'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.2505357142857143,0.6503198294243071,0.9677121262658093
+"frozenset({'no tiene cirrosis', 'Male', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.2755357142857143,0.7794110218720007,1.0019516373176631
+"frozenset({'Male', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.2755357142857143,0.7752210610932475,1.0063605039923469
+"frozenset({'Male', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.2755357142857143,0.9197663328564617,1.0081209316519584
+"frozenset({'Male', 'no tiene otro cáncer'})","frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.2755357142857143,0.6031584707997811,1.005623269167195
+"frozenset({'Male', 'no tiene cirrosis'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.2755357142857143,0.7155444258950102,1.0078343985040008
+"frozenset({'Male', 'no sobrevivió'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.2755357142857143,0.709523152618752,1.005575292856784
+"frozenset({'tiene hipertensión', 'Male', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.21769642857142857,0.7808236725805419,1.0037676338209987
+"frozenset({'tiene hipertensión', 'Male', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.21769642857142857,0.7480517886727618,0.9710904577327335
+"frozenset({'Male', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.21769642857142857,0.7266928946113496,0.9740958445612555
+"frozenset({'tiene hipertensión', 'Male', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.26257142857142857,0.7809645209262801,1.0039486977611607
+"frozenset({'tiene hipertensión', 'Male', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.26257142857142857,0.9022519482113271,0.9889240800875738
+"frozenset({'Male', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.26257142857142857,0.7387459807073955,0.9902524096898807
+"frozenset({'tiene hipertensión', 'Male'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.26257142857142857,0.7039111494087797,0.9914490899391751
+"frozenset({'Male', 'no sobrevivió'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.26257142857142857,0.6761392375959903,1.006132843657839
+"frozenset({'tiene hipertensión', 'Male', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.2515357142857143,0.7481410664967072,0.9712063545786916
+"frozenset({'tiene hipertensión', 'Male', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.2515357142857143,0.9021968872093769,0.9888637298153351
+"frozenset({'Male', 'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.2515357142857143,0.7115219477698641,0.9537599414776644
+"frozenset({'tiene hipertensión', 'Male'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.2515357142857143,0.6743262003925512,0.955692233492341
+"frozenset({'Male', 'no tiene cirrosis'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.2515357142857143,0.6532183268410314,0.9720252518560243
+"frozenset({'no tiene asma', 'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.30175,0.7790686952512679,1.0015115682032736
+"frozenset({'no tiene asma', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.30175,0.794526988903517,1.031422675566715
+"frozenset({'no tiene asma', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.30175,0.9289208949480513,1.018154899340227
+"frozenset({'no tiene asma', 'no tiene otro cáncer'})","frozenset({'no sobrevivió', 'no tiene cirrosis'})",0.30175,0.6188383505456677,1.0317657386732582
+"frozenset({'no tiene asma', 'no tiene cirrosis'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.30175,0.7228472430166404,1.018120315121906
+"frozenset({'no tiene asma', 'no sobrevivió'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.30175,0.7334519727418725,1.039488534749193
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.2169107142857143,0.7811575562700964,1.0041968493440476
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.2169107142857143,0.7441190884587111,0.9659851860004595
+"frozenset({'no tiene asma', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.2169107142857143,0.6677477873673795,0.8950828468433168
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.2626071428571429,0.7824005107469675,1.0057946972551806
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.2626071428571429,0.9008821367311934,0.9874226817690995
+"frozenset({'no tiene asma', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.2626071428571429,0.6914613503855558,0.9268697039421481
+"frozenset({'tiene hipertensión', 'no tiene asma'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.2626071428571429,0.7039058012636417,0.9914415571509326
+"frozenset({'no tiene asma', 'no sobrevivió'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.2626071428571429,0.6383089543817007,0.9498392752471299
+"frozenset({'no tiene cirrosis', 'si tiene asma', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.2480892857142857,0.7794984009426021,1.0020639652170635
+"frozenset({'si tiene asma', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.2480892857142857,0.7513384889946461,0.9753571186355459
+"frozenset({'si tiene asma', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.2480892857142857,0.9023186335000324,0.988997171298869
+"frozenset({'si tiene asma', 'no tiene cirrosis'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.2480892857142857,0.7030514650068316,0.9902382363837764
+"frozenset({'si tiene asma', 'no sobrevivió'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.2480892857142857,0.6769478146469814,0.9594077296138223
+"frozenset({'tiene hipertensión', 'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.3928214285714286,0.7824014795845782,1.0057959427192593
+"frozenset({'tiene hipertensión', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.3928214285714286,0.7485622894477151,0.9717531691101128
+"frozenset({'tiene hipertensión', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.3928214285714286,0.9015204294905947,0.9881222902112523
+"frozenset({'no tiene cirrosis', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.3928214285714286,0.7144295410996719,0.9576574263729235
+"frozenset({'tiene hipertensión', 'no tiene cirrosis'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.3928214285714286,0.7044544784961732,0.9922143614222112
+"frozenset({'tiene hipertensión', 'no sobrevivió'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.3928214285714286,0.6744749348459298,0.955903028152053
+"frozenset({'no sobrevivió', 'no tiene cirrosis'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.3928214285714286,0.6549362867690843,0.9745816719121176
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no tiene cirrosis'})",frozenset({'no sobrevivió'}),0.21882142857142858,0.7816546533137717,1.0048358795640975
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no sobrevivió'})",frozenset({'no tiene cirrosis'}),0.21882142857142858,0.7521944632005402,0.9764683095931719
+"frozenset({'si tiene asma', 'no sobrevivió', 'no tiene cirrosis'})",frozenset({'tiene hipertensión'}),0.21882142857142858,0.7958693251932194,1.0668234246312633
+"frozenset({'si tiene asma', 'no tiene cirrosis'})","frozenset({'tiene hipertensión', 'no sobrevivió'})",0.21882142857142858,0.6201103183037296,1.0647302721143295
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no tiene otro cáncer'})",frozenset({'no sobrevivió'}),0.2621607142857143,0.7793703880660403,1.0018994015816136
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no sobrevivió'})",frozenset({'no tiene otro cáncer'}),0.2621607142857143,0.9011724264931558,0.9877408573478572
+"frozenset({'si tiene asma', 'no sobrevivió', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.2621607142857143,0.7939538153696394,1.0642557785551812
+"frozenset({'tiene hipertensión', 'si tiene asma'})","frozenset({'no sobrevivió', 'no tiene otro cáncer'})",0.2621607142857143,0.7029446971510654,0.9900878553399145
+"frozenset({'si tiene asma', 'no tiene otro cáncer'})","frozenset({'tiene hipertensión', 'no sobrevivió'})",0.2621607142857143,0.6172118052636004,1.059753521225253
+"frozenset({'si tiene asma', 'no sobrevivió'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.2621607142857143,0.7153437606587731,1.0644713575024924
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.24948214285714285,0.7432964460523516,0.9649172650315658
+"frozenset({'tiene hipertensión', 'no tiene asma', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.24948214285714285,0.8984565916398713,0.9847641339511625
+"frozenset({'no tiene asma', 'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.24948214285714285,0.6441217150760719,0.8634132667319344
+"frozenset({'tiene hipertensión', 'no tiene asma'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.24948214285714285,0.6687248707639287,0.9477537206180247
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no tiene otro cáncer'})",frozenset({'no tiene cirrosis'}),0.25258928571428574,0.750915750915751,0.9748083372266229
+"frozenset({'tiene hipertensión', 'si tiene asma', 'no tiene cirrosis'})",frozenset({'no tiene otro cáncer'}),0.25258928571428574,0.9022772214071569,0.9889517810772878
+"frozenset({'si tiene asma', 'no tiene cirrosis', 'no tiene otro cáncer'})",frozenset({'tiene hipertensión'}),0.25258928571428574,0.7936374347752904,1.0638316860333739
+"frozenset({'tiene hipertensión', 'si tiene asma'})","frozenset({'no tiene cirrosis', 'no tiene otro cáncer'})",0.25258928571428574,0.6772803447450324,0.9598790095847396
+"frozenset({'si tiene asma', 'no tiene cirrosis'})","frozenset({'tiene hipertensión', 'no tiene otro cáncer'})",0.25258928571428574,0.715803856080158,1.0651560051148952
