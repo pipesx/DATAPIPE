@@ -43,16 +43,22 @@ function setup() {
   background(0);
 
   // Inicializar handpose
-  handposeModel = ml5.handpose(video, modelReady);
+  // handposeModel = ml5.handpose(video, modelReady);
 
   // Inicializar MobileNet y clasificador
   mobilenet = ml5.featureExtractor('MobileNet', modelReady);
   classifier = mobilenet.classification(video, { numLabels: 4 }, videoReady);
 
-  arribaButton = createButton('arriba');
+  arribaButton = createButton('Figura 1');
   arribaButton.mousePressed(function() {
     // Agregar imagen de la mano en la posición "arriba"
-    classifier.addImage('arriba');
+    classifier.addImage('Figura 1');
+  });
+
+  arribaButton = createButton('figura 2');
+  arribaButton.mousePressed(function() {
+    // Agregar imagen de la mano en la posición "arriba"
+    classifier.addImage('figura 2');
   });
 
   // Agregar otros botones y funciones mousePressed para las otras direcciones
@@ -68,26 +74,26 @@ function draw() {
   image(video, 0, 0, 320, 240);
 
   // Detectar y dibujar mano con handpose
-  if (handposeModel) {
-    handposeModel.on('predict', (results) => {
-      if (results.length > 0) {
-        let hand = results[0];
-        let landmarks = hand.landmarks;
+  //if (handposeModel) {
+    //handposeModel.on('predict', (results) => {
+      //if (results.length > 0) {
+        //let hand = results[0];
+        //let landmarks = hand.landmarks;
 
         // Dibujar puntos de referencia de la mano
-        for (let i = 0; i < landmarks.length; i++) {
-          let [x, y] = landmarks[i];
-          ellipse(x, y, 10, 10);
-        }
+        //for (let i = 0; i < landmarks.length; i++) {
+          //let [x, y] = landmarks[i];
+          //ellipse(x, y, 10, 10);
+        //}
 
         // Recortar imagen de la mano y agregar al clasificador
-        let handImage = get(hand.boundingBox.topLeft[0], hand.boundingBox.topLeft[1],
-          hand.boundingBox.bottomRight[0] - hand.boundingBox.topLeft[0],
-          hand.boundingBox.bottomRight[1] - hand.boundingBox.topLeft[1]);
-        classifier.addImage(handImage, label);
-      }
-    });
-  }
+        //let handImage = get(hand.boundingBox.topLeft[0], hand.boundingBox.topLeft[1],
+          //hand.boundingBox.bottomRight[0] - hand.boundingBox.topLeft[0],
+          //hand.boundingBox.bottomRight[1] - hand.boundingBox.topLeft[1]);
+        //classifier.addImage(handImage, label);
+      //}
+    //});
+  //}
 
   fill(255);
   textSize(16);
